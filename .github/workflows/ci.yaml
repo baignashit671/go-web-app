@@ -1,5 +1,4 @@
 # CICD using GitHub actions
-
 name: CI/CD
 
 # Exclude the workflow to run on changes to the helm chart
@@ -92,6 +91,3 @@ jobs:
         git add helm/go-web-app-chart/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
-
-
-
